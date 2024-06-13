@@ -5,4 +5,6 @@ iris_spark.py are already completed
 
 The script already completed
 
-Continue with iris_bmodel.py
+iris_bmodel.py also completed
+
+only intrepreting output and visualization?
