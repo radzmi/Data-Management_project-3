@@ -16,8 +16,40 @@ In the script "iris_rf.py" the dataset were loaded using scikit-learn package. T
 
 The results shows that the best parameters for randomforest is 20 for number of tress and 5 as depth. 
 
+## Logistic regression
+The second script named "iris_lr.py" is a script were logistic regression were performed on the dataset. Logistic regression were performed in order to compare the model performance with random forest model. Both model have their own strenght and weaknesses. Thus, performing both model and comparing their performances will produce a better classifications. The proceduer for logistic regression are the same as random forest, just using logistic regression function instead of random forest.
 
+<img width="353" alt="spark_lr" src="https://github.com/radzmi/Data-Management_project-3/assets/152348714/1b68e233-c090-42e5-abe9-2204400beaeb">
 
+From the output, the logistic regression will perform better when the parameters are set to 'regParam = 0.01' and 'elasticNetParam = 0.5'.
+
+## Comparison
+
+After performing both models and tuning the parameters, the model are performed once again with the parameters seleted before.
+
+<img width="411" alt="spark_compare" src="https://github.com/radzmi/Data-Management_project-3/assets/152348714/1d0d3ccd-ea48-42ae-ab71-0bbd1dba3553">
+
+### Confusion Matirx
+The confusion matrix for both model is identical, indicating that both models made the same classifications.
+
+Setosa: 12 instances correctly classified (no misclassifications).
+Versicolor: 4 instances correctly classified (no misclassifications).
+Virginica: 11 instances correctly classified, 2 misclassified as Versicolor.
+
+### Classification Reports
+Both classification reports is also identical, indicating similar performance on this dataset.
+   
+Precision: Measures the accuracy of the positive predictions.
+Recall: Measures the ability to find all the relevant cases.
+F1-Score: Harmonic mean of precision and recall, providing a single metric that balances both concerns.
+
+## Conclusion
+
+Identical Performance: Both Random Forest and Logistic Regression models performed identically on this dataset in terms of accuracy, precision, recall, and F1 score.
+Detailed Performance: Both models perfectly classified the 'setosa' class. They also performed well on the 'virginica' class, with a slight misclassification for 'virginica' instances as 'versicolor'.
+Robustness: The identical performance suggests that both models are robust and well-tuned for this particular dataset.
+
+To identify the best technique for this dataset is depends on a few factors. Logistic Regression are better than Random Forest if you prefered for its simplicity and interpretability, especially in scenarios where a linear relationship is expected and the model needs to be easily explained. Random forest may be preferred for its ability to model complex, non-linear relationships and its robustness to overfitting due to the ensemble approach.
 
 
 
