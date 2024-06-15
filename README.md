@@ -43,7 +43,7 @@ Precision: Measures the accuracy of the positive predictions.
 Recall: Measures the ability to find all the relevant cases.
 F1-Score: Harmonic mean of precision and recall, providing a single metric that balances both concerns.
 
-## Conclusion
+# Conclusion
 
 Identical Performance: Both Random Forest and Logistic Regression models performed identically on this dataset in terms of accuracy, precision, recall, and F1 score.
 Detailed Performance: Both models perfectly classified the 'setosa' class. They also performed well on the 'virginica' class, with a slight misclassification for 'virginica' instances as 'versicolor'.
