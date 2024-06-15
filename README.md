@@ -1,4 +1,4 @@
-# Data-Management_project-3
+# Data-Management_project-3 (Classification of Iris dataset using Spark)
 
 iris_rf.py
 iris_lr.py
