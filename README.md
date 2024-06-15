@@ -50,31 +50,3 @@ Detailed Performance: Both models perfectly classified the 'setosa' class. They 
 Robustness: The identical performance suggests that both models are robust and well-tuned for this particular dataset.
 
 To identify the best technique for this dataset is depends on a few factors. Logistic Regression are better than Random Forest if you prefered for its simplicity and interpretability, especially in scenarios where a linear relationship is expected and the model needs to be easily explained. Random forest may be preferred for its ability to model complex, non-linear relationships and its robustness to overfitting due to the ensemble approach.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-iris_rf.py
-iris_lr.py
-iris_spark.py
