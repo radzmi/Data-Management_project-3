@@ -14,12 +14,14 @@ In the script "iris_rf.py" the dataset were loaded using scikit-learn package. T
 
 <img width="371" alt="spark1" src="https://github.com/radzmi/Data-Management_project-3/assets/152348714/a4456f62-ec60-4f12-8436-799086257651">
 
+
 The results shows that the best parameters for randomforest is 20 for number of tress and 5 as depth. 
 
 ## Logistic regression
 The second script named "iris_lr.py" is a script were logistic regression were performed on the dataset. Logistic regression were performed in order to compare the model performance with random forest model. Both model have their own strenght and weaknesses. Thus, performing both model and comparing their performances will produce a better classifications. The proceduer for logistic regression are the same as random forest, just using logistic regression function instead of random forest.
 
 <img width="353" alt="spark_lr" src="https://github.com/radzmi/Data-Management_project-3/assets/152348714/1b68e233-c090-42e5-abe9-2204400beaeb">
+
 
 From the output, the logistic regression will perform better when the parameters are set to 'regParam = 0.01' and 'elasticNetParam = 0.5'.
 
